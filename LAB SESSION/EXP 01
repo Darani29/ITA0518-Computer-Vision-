@@ -1,9 +1,0 @@
-Read an image in python  and  Convert an Image to Grayscale b
-import cv2
-from google.colab.patches import cv2_imshow
-img = cv2.imread ('Picture1.png')
-gray_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-cv2_imshow(gray_img) 
-cv2.imwrite('gray_image.jpg', gray_img)
-cv2.waitKey(0)
-cv2.destroyAllWindows()
